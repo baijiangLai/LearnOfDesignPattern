@@ -13,7 +13,6 @@
 ![单项关联](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/%2Fimages%2Fbase%2F%B5%A5%CF%EE%B9%D8%C1%AA.png)
 2. 双向关联
 在UML类图中用一个不带箭头的实线表示
-   https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/
 ![双向关联](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/..%2Fimages%2Fbase%2F%CB%AB%CF%EE%B9%D8%C1%AA.png)
 3. 自关联
 在UML类图中用一个带有箭头且指向自身的直线表示。
