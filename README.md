@@ -1,23 +1,15 @@
 # 设计模式
-
-设计模式的七大原则：
-1. 单一职责原则 (Single Responsibility Principle)
-
-2. 开放-关闭原则 (Open-Closed Principle)
-
-3. 里氏替换原则 (Liskov Substitution Principle)
-
-4. 依赖倒转原则 (Dependence Inversion Principle)
-
-5. 接口隔离原则 (Interface Segregation Principle)
-
-6. 迪米特法则（Law Of Demeter）
-
-7. 组合/聚合复用原则 (Composite/Aggregate Reuse Principle)
-
-
+## UML
+[UML](https://github.com/baijiangLai/DesignPattern/tree/master/UML)
+## 设计原则
+[设计原则](https://github.com/baijiangLai/DesignPattern/tree/master/principle)
 ## 创建型
 ### 单例模式
+定义：确保一个类只有一个实例，而且自行实例化并向整个系统提供这个实例。
+
+前半句：构造方法只能是private，因为只有一个实例，那么这个实例应该是当前类的类成员变量(static)
+
+后半句：提供一个静态方法，以便于提供这个实例。
 ### 原型模式
 ### 工厂模式
 ### 抽象工厂模式

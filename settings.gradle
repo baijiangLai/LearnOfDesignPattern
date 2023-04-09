@@ -1,3 +1,6 @@
 rootProject.name = 'DesignPattern'
 include 'UML'
+include 'CreationType'
+include 'BehavioralType'
+include 'StructuralType'
 
