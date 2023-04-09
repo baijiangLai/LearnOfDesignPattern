@@ -17,7 +17,7 @@
 专门定义一个类负责创建其他类的实例，被创建的实例通常都有共同的父类。
 
 类图：
-![]()
+![](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82.png)
 
 优点：
 实现了对象的创建和使用分离。
