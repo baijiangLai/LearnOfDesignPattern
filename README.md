@@ -28,7 +28,48 @@
 
 ### 原型模式
 ### 工厂模式
+![工厂模式直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/images%2FbehavioralType%2F%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82.png)
+定义一个用于创建对象的接口，让子类决定实例化哪个类。工厂方法使一个类的实例化延迟到其子类。
+
+接口：就是工厂的抽象接口
+
+让子类决定实例化哪个类：即让具体的某个工厂去实例化具体的产品。 
+
+类图：
+![工厂模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/images%2FbehavioralType%2F%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+
+#### 个人理解
+定义两个接口，一个接口用来规范工厂的行为，一个接口用来规范实际产品的行为。
+具体的工厂实现工厂接口，具体的产品实现产品接口。
+每个工厂生产指定的产品
+
+角色：
+1. 抽象工厂
+2. 具体工厂A
+3. 具体工厂B...
+4. 产品体系
+
 ### 抽象工厂模式
+![抽象工厂直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/images%2FbehavioralType%2F%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%9B%B4%E8%A7%82.png)
+由于工厂模式只能生产一个大类的产品，所有的产品都必须产品的接口。
+抽象工厂模式使得工厂不仅仅可以生产某一个大类的产品，还可以生产其他大类的产品。
+抽象工厂打破了一个具体工厂只能生产一个大类的限制。
+
+
+抽象工厂模式只是工厂模式的一个扩展，当只有一个产品体系的时候就退回工厂模式。
+
+如果新增一个产品体系，就必须在工厂类进行修改。
+
+#### 个人理解
+就是一个工厂模式的变形，只是在工厂里面生产的东西不仅仅局限于一类了。
+
+角色：
+1. 抽象工厂
+2. 具体工厂A
+3. 具体工厂B...
+3. 产品体系A
+4. 产品体系B...
+
 ### 建造者模式
 
 
@@ -36,7 +77,7 @@
 ### 代理模式
 ### 适配器模式
 ### 桥接模式
-### 装饰者模式
+### 装饰器模式
 ### 外观模式
 ### 享元模式
 ### 组合模式
