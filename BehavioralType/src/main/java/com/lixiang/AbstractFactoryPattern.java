@@ -28,7 +28,7 @@ interface Phone{
     void print();
 }
 
-class Xiaomi implements Phone{
+class XiaoMi implements Phone{
 
     @Override
     public void print() {
