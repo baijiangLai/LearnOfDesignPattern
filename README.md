@@ -18,7 +18,7 @@
 专门定义一个类负责创建其他类的实例，被创建的实例通常都有共同的父类。
 
 类图：
-![](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82.png)
+![简单工厂类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.png)
 
 优点：
 实现了对象的创建和使用分离。
@@ -91,7 +91,7 @@
 
 
 类图：
-![适配器模式类图]()
+![适配器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 与装饰器模式的区别：
 
@@ -105,7 +105,7 @@
 生成子类要求写一个新的子类，从而对类层级进行扩展。
 
 类图：
-![装饰器模式类图]()
+![装饰器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 外观模式
 ### 享元模式
