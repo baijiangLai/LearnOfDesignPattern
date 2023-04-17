@@ -124,10 +124,10 @@
 ![img.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
-
-定义对象间一种一对多依赖关系，使得每当一个对象状态发生改变的时候，其相关依赖的对象都能都通知并被自动更新。
+对象间一种一对多依赖关系，使得每当一个对象状态发生改变的时候，其相关依赖的对象都能都通知并被自动更新。
 
 类图：
+
 ![观察者模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
