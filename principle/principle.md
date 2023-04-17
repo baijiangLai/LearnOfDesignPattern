@@ -4,9 +4,7 @@
 2. 增加程序的可复用性、可扩展性以及可维护性。
 
 ## 单一职责原则 (Single Responsibility Principle)
-就一个类而言，应该仅有一个引起它变化的原因，否则类应该呗拆分。
-
-
+就一个类而言，应该仅有一个引起它变化的原因，否则类应该被拆分。
 
 单一职责原则和信就是解耦和增强内聚性。
 
@@ -21,8 +19,17 @@
 
 
 ## 里氏替换原则 (Liskov Substitution Principle)
+定义：子类型（subtype）必须能够替换掉他们的基类型（base type）。
+
+也就是在扩展一个类的时候，在不修改调用方法代码的情况下，将子类对象作为父类的对象进行传递
+
+可以直接调用之类执行操作，但是子类操作结果和父类操作结果是一样的。
+
+即：在重写方法的时候，更多的是对基类的行为进行扩展而并不是直接去修改甚至完全替换。
+
+目的：子类替换父类的时候产生的行为可预期。
+## 接口隔离原则 (Interface Segregation Principle)
 
 ## 依赖倒转原则 (Dependence Inversion Principle)
-## 接口隔离原则 (Interface Segregation Principle)
 ## 迪米特法则（Law Of Demeter）
 ## 合成复用原则 (Composite/Aggregate Reuse Principle)
