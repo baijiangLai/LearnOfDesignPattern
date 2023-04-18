@@ -108,14 +108,14 @@
 ![装饰器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 外观模式
-![外观模式直观图.png](images%2FbehavioralType%2F%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
+![外观模式直观图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
 要求一个子系统的外部与其内部的通信必须通过一个统一的对象进行。外观模式提供一个高层次的接口，使得子系统更容易使用。
 
 类图：
 
-![外观模式类图.png](images%2FbehavioralType%2F%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![外观模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 缺点：
 不符合开闭原则。子系统一旦发生扩展的话，那么就必须修改外观模式的类(必须要修改代码，才能适应子系统的变更)。
