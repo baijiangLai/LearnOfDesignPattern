@@ -140,7 +140,7 @@
 
 类图：
 
-![状态模式类图.png](images%2FbehavioralType%2F%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![状态模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 观察者模式
 举例：
