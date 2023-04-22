@@ -44,8 +44,7 @@
 
 类图：
 
-![工厂模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creat
-ionType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![工厂模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 个人理解： 定义两个接口，一个接口用来规范工厂的行为，一个接口用来规范实际产品的行为。
 具体的工厂实现工厂接口，具体的产品实现产品接口。
@@ -100,7 +99,7 @@ ionType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 类图：
 
-![代理模式类图.png](images%2FcreationType%2F%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![代理模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 适配器模式
 定义：将一个类的接口变换程客户端所期待的另一种接口，从而使原本因接口不匹配而无法在一起工作的两个类能在一起工作。
@@ -110,7 +109,7 @@ ionType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 类图：
-![适配器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![适配器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 与装饰器模式的区别：
 
@@ -124,17 +123,17 @@ ionType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 生成子类要求写一个新的子类，从而对类层级进行扩展。
 
 类图：
-![装饰器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![装饰器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 外观模式
-![外观模式直观图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
+![外观模式直观图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
 要求一个子系统的外部与其内部的通信必须通过一个统一的对象进行。外观模式提供一个高层次的接口，使得子系统更容易使用。
 
 类图：
 
-![外观模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![外观模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 缺点：
 不符合开闭原则。子系统一旦发生扩展的话，那么就必须修改外观模式的类(必须要修改代码，才能适应子系统的变更)。
@@ -200,14 +199,14 @@ ionType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 举例：
 借钱还钱，张三找李四、王五、孙六...借钱，等张三有钱了之后就通知他们自己有钱可以开始还钱了。
 
-![img.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
+![img.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
 对象间一种一对多依赖关系，使得每当一个对象状态发生改变的时候，其相关依赖的对象都能都通知并被自动更新。
 
 类图：
 
-![观察者模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![观察者模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ### 中介者模式
