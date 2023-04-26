@@ -33,6 +33,19 @@
 不够灵活，如果新增一个产品就需要去修改工厂类。
 
 ### 原型模式
+举例：
+高中生物知识，在细胞有丝分裂的时候，一个细胞会分裂成两个一模一样的细胞。
+
+或者
+
+你想去复制一辆汽车，但是汽车零部件又很麻烦你不想什么都去复制，此时就可以用到原型模式
+
+定义：使用原型实例指定待创建对象的类型，并且通过复制这个原型来创建新的对象。
+
+类图：
+
+![原型模式类图.png](images%2FcreationType%2F%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+
 ### 工厂模式
 ![工厂模式直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82.png)
 
