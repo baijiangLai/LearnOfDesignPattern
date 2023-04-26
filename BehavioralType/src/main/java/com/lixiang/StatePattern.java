@@ -2,7 +2,7 @@ package com.lixiang;
 
 public class StatePattern {
     public static void main(String[] args) {
-        Zhangsan zhangsan = new Zhangsan();
+        ZhangSan zhangsan = new ZhangSan();
         zhangsan.changeState(new Happy());
         zhangsan.doSomeThing();
     }
@@ -42,7 +42,7 @@ class Sad extends State {
 }
 
 
-class Zhangsan {
+class ZhangSan {
     private State state;
 
     public void changeState(State state) {
