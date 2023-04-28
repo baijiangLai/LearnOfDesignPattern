@@ -15,7 +15,7 @@
 
 类图：
 
-![单例模式类图.png](images%2FcreationType%2F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![单例模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 简单工厂模式
 其实该模式并不属于设计模式23个设计模式的类型。但是由于使用较多，因此本仓库加入
@@ -51,7 +51,7 @@
 
 类图：
 
-![原型模式类图.png](images%2FcreationType%2F%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![原型模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 工厂模式
 ![工厂模式直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82.png)
@@ -113,7 +113,7 @@
 
 类图：
 
-![建造者模式.png](images%2FcreationType%2F%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.png)
+![建造者模式.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.png)
 
 
 ## 结构型
@@ -163,7 +163,7 @@
 桥接模式是将抽象部分和它的实现部分进行分离，使他们都可以独立的变化。(两个维度进行分离，一个维度关联使用另外一个维度，实现了组合)
 
 类图：
-![桥接模式类图.png](images%2FstrcturalType%2F%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![桥接模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 装饰器模式
 定义：动态给一个对象添加一些额外的功能。就新增功能来说，装饰器模式比生成子类更加灵活。
@@ -203,7 +203,7 @@
 
 类图：
 
-![享元模式类图.png](images%2FstrcturalType%2F%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![享元模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 享元模式大量的使用在池技术中。
@@ -220,7 +220,7 @@
 
 类图：
 
-![组合模式类图.png](images%2FstrcturalType%2F%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![组合模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ## 行为型
 ### 模板方法模式
@@ -242,7 +242,7 @@
 
 类图：
 
-![模板方法模式类图.png](images%2FbehavioralType%2F%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![模板方法模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 策略模式
 
@@ -256,7 +256,7 @@
 
 类图：
 
-![策略模式类图.png](images%2FbehavioralType%2F%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![策略模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 与状态模式的区别：
 
@@ -270,7 +270,7 @@
 ### 命令模式
 举例：
 
-皇帝可以发号施令，有掌印、秉笔、隋唐...，在皇帝处理事务的时候，就这可以像这些太监发出命令，...。，比如在需要使用到笔的时候，说一声需要笔，那么秉笔就会拿过来笔，需要使用到玉玺的时候，说一声需要玉玺，那么掌印就会递过来玉玺
+皇帝可以发号施令，有掌印、秉笔...，在皇帝处理事务的时候，就这可以像这些太监发出命令，...。，比如在需要使用到笔的时候，说一声需要笔，那么秉笔就会拿过来笔，需要使用到玉玺的时候，说一声需要玉玺，那么掌印就会递过来玉玺
 
 那么，皇帝都是通过声音去控制这两个太监，对应类图中的Invoker
 
@@ -280,7 +280,7 @@
 
 类图：
 
-![命令模式类图.png](images%2FbehavioralType%2F%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![命令模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 责任链模式
 举例：
@@ -295,7 +295,7 @@
 
 类图：
 
-![责任链模式类图.png](images%2FbehavioralType%2F%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![责任链模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ### 状态模式
@@ -341,7 +341,7 @@
 
 类图：
 
-![中介者模式.png](images%2FbehavioralType%2F%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.png)
+![中介者模式.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 迭代器模式
 举例：
@@ -353,7 +353,7 @@ Java中的iterator
 在能不暴露集合底层表现形式的情况下遍历集合中所有的元素。
 
 类图：
-![迭代器模式类图.png](images%2FbehavioralType%2F%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![迭代器模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ### 访问者模式
@@ -372,7 +372,7 @@ Java中的iterator
 
 类图：
 
-![访问者模式类图.png](images%2FbehavioralType%2F%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![访问者模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 备忘录模式
 举例：
@@ -385,7 +385,7 @@ Java中的iterator
 
 类图：
 
-![备忘录模式类图.png](images%2FbehavioralType%2F%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![备忘录模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 解释器模式
 
@@ -399,4 +399,4 @@ Java中的iterator
 
 类图：
 
-![解释器模式类图.png](images%2FbehavioralType%2F%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![解释器模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
