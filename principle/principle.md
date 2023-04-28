@@ -29,7 +29,10 @@
 
 目的：子类替换父类的时候产生的行为可预期。
 ## 接口隔离原则 (Interface Segregation Principle)
-
+定义：将臃肿庞大的接口拆分为更小和更具体的接口，这样客户将会只需要指导他们感兴趣的方法。
 ## 依赖倒转原则 (Dependence Inversion Principle)
+定义：针对接口编程，依赖于抽象而不依赖于具体。
 ## 迪米特法则（Law Of Demeter）
+定义：一个实体应当尽量少地减少与其他实体之间发生相互作用，使得系统功能模块相对独立。
 ## 合成复用原则 (Composite/Aggregate Reuse Principle)
+定义：尽量使用合成/聚合的方式，而不是使用继承。
