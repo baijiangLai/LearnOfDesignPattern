@@ -1,3 +1,5 @@
+package com.lixiang;
+
 public class BuilderPattern {
     public static void main(String[] args) {
         Computer computer = new Computer.Builder("inter", "sansung")
@@ -46,7 +48,7 @@ class Computer {
 
     @Override
     public String toString() {
-        return "Computer{" +
+        return "com.lixiang.Computer{" +
                 "cpu='" + cpu + '\'' +
                 ", ram='" + ram + '\'' +
                 ", usbCount=" + usbCount +
