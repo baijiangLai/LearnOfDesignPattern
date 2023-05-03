@@ -15,7 +15,7 @@
 
 类图：
 
-![单例模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![单例模式类图](http://laibaijiang.com/designPattern/creationType/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 简单工厂模式
 其实该模式并不属于设计模式23个设计模式的类型。但是由于使用较多，因此本仓库加入
@@ -27,7 +27,7 @@
 专门定义一个类负责创建其他类的实例，被创建的实例通常都有共同的父类。
 
 类图：
-![简单工厂类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.png)
+![简单工厂类图](http://laibaijiang.com/designPattern/creationType/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.png)
 
 优点：
 实现了对象的创建和使用分离。
@@ -51,10 +51,10 @@
 
 类图：
 
-![原型模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![原型模式类图](http://laibaijiang.com/designPattern/creationType/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 工厂模式
-![工厂模式直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82.png)
+![工厂模式直观](http://laibaijiang.com/designPattern/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82.png)
 
 定义一个用于创建对象的接口，让子类决定实例化哪个类。工厂方法使一个类的实例化延迟到其子类。
 
@@ -64,7 +64,7 @@
 
 类图：
 
-![工厂模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![工厂模式类图](http://laibaijiang.com/designPattern/creationType/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 个人理解： 定义两个接口，一个接口用来规范工厂的行为，一个接口用来规范实际产品的行为。
 具体的工厂实现工厂接口，具体的产品实现产品接口。
@@ -77,7 +77,7 @@
 4. 产品体系
 
 ### 抽象工厂模式
-![抽象工厂直观.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%9B%B4%E8%A7%82.png)
+![抽象工厂直观](http://laibaijiang.com/designPattern/creationType/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%9B%B4%E8%A7%82.png)
 
 由于工厂模式只能生产一个大类的产品，所有的产品都必须产品的接口。
 抽象工厂模式使得工厂不仅仅可以生产某一个大类的产品，还可以生产其他大类的产品。
@@ -90,7 +90,7 @@
 
 类图：
 
-![抽象工厂类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/creationType/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.png)
+![抽象工厂类图](http://laibaijiang.com/designPattern/creationType/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.png)
 
 个人理解： 就是一个工厂模式的变形，只是在工厂里面生产的东西不仅仅局限于一类了。
 
@@ -113,7 +113,7 @@
 
 类图：
 
-![建造者模式.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/creationType/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.png)
+![建造者模式类图](http://laibaijiang.com/designPattern/creationType/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ## 结构型
@@ -131,7 +131,7 @@
 
 类图：
 
-![代理模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![代理模式类图](http://laibaijiang.com/designPattern/strcturalType/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 适配器模式
 定义：
@@ -144,7 +144,7 @@
 
 
 类图：
-![适配器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![适配器模式类图](http://laibaijiang.com/designPattern/strcturalType/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 与装饰器模式的区别：
 
@@ -163,7 +163,7 @@
 桥接模式是将抽象部分和它的实现部分进行分离，使他们都可以独立的变化。(两个维度进行分离，一个维度关联使用另外一个维度，实现了组合)
 
 类图：
-![桥接模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![桥接模式类图](http://laibaijiang.com/designPattern/strcturalType/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 装饰器模式
 定义：动态给一个对象添加一些额外的功能。就新增功能来说，装饰器模式比生成子类更加灵活。
@@ -171,17 +171,17 @@
 生成子类要求写一个新的子类，从而对类层级进行扩展。
 
 类图：
-![装饰器模式类图](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![装饰器模式类图](http://laibaijiang.com/designPattern/strcturalType/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 外观模式
-![外观模式直观图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
+![外观模式直观图](http://laibaijiang.com/designPattern/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
 要求一个子系统的外部与其内部的通信必须通过一个统一的对象进行。外观模式提供一个高层次的接口，使得子系统更容易使用。
 
 类图：
 
-![外观模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![外观模式类图](http://laibaijiang.com/designPattern/strcturalType/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 缺点：
 不符合开闭原则。子系统一旦发生扩展的话，那么就必须修改外观模式的类(必须要修改代码，才能适应子系统的变更)。
@@ -203,7 +203,7 @@
 
 类图：
 
-![享元模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![享元模式类图](http://laibaijiang.com/designPattern/strcturalType/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 享元模式大量的使用在池技术中。
@@ -220,7 +220,7 @@
 
 类图：
 
-![组合模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/strcturalType/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![组合模式类图](http://laibaijiang.com/designPattern/strcturalType/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ## 行为型
 ### 模板方法模式
@@ -242,7 +242,7 @@
 
 类图：
 
-![模板方法模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![模板方法模式类图](http://laibaijiang.com/designPattern/behavioralType/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 策略模式
 
@@ -256,7 +256,7 @@
 
 类图：
 
-![策略模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![策略模式类图](http://laibaijiang.com/designPattern/behavioralType/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 与状态模式的区别：
 
@@ -280,7 +280,7 @@
 
 类图：
 
-![命令模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![命令模式类图](http://laibaijiang.com/designPattern/behavioralType/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 责任链模式
 举例：
@@ -295,7 +295,7 @@
 
 类图：
 
-![责任链模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![责任链模式类图](http://laibaijiang.com/designPattern/behavioralType/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ### 状态模式
@@ -311,14 +311,14 @@
 
 类图：
 
-![状态模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![状态模式类图](http://laibaijiang.com/designPattern/behavioralType/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 观察者模式
 举例：
 
 借钱还钱，张三找李四、王五、孙六...借钱，等张三有钱了之后就通知他们自己有钱可以开始还钱了。
 
-![img.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
+![观察者模式直观图](http://laibaijiang.com/designPattern/behavioralType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%9B%B4%E8%A7%82%E5%9B%BE.png)
 
 定义：
 
@@ -326,7 +326,7 @@
 
 类图：
 
-![观察者模式类图.png](https://raw.githubusercontent.com/baijiangLai/DesignPattern/master/images/behavioralType/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![观察者模式类图](http://laibaijiang.com/designPattern/behavioralType/观察者模式类图.png)
 
 
 ### 中介者模式
@@ -341,7 +341,7 @@
 
 类图：
 
-![中介者模式.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![中介者模式类图](http://laibaijiang.com/designPattern/behavioralType/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 迭代器模式
 举例：
@@ -353,7 +353,7 @@ Java中的iterator
 在能不暴露集合底层表现形式的情况下遍历集合中所有的元素。
 
 类图：
-![迭代器模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![迭代器模式类图](http://laibaijiang.com/designPattern/behavioralType/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 
 ### 访问者模式
@@ -372,7 +372,7 @@ Java中的iterator
 
 类图：
 
-![访问者模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![访问者模式类图](http://laibaijiang.com/designPattern/behavioralType/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 备忘录模式
 举例：
@@ -385,7 +385,7 @@ Java中的iterator
 
 类图：
 
-![备忘录模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![备忘录模式类图](http://laibaijiang.com/designPattern/behavioralType/%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
 
 ### 解释器模式
 
@@ -399,4 +399,4 @@ Java中的iterator
 
 类图：
 
-![解释器模式类图.png](https://raw.githubusercontent.com/baijiangLai/LearnOfDesignPattern/master/images/behavioralType/%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
+![解释器模式类图](http://laibaijiang.com/designPattern/behavioralType/%E8%A7%A3%E9%87%8A%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png)
